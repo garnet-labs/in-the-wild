@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install radioplayer@1.0.0
+       run: npm install @pgc-web/web-creation
