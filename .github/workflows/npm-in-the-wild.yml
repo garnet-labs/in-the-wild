@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install @live-backstage/client
+       run: npm install radioplayer@1.0.0
