@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install @pgc-web/web-creation
+       run: npm install cchome-shared@10.0.1
