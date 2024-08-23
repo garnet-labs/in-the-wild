@@ -9,11 +9,7 @@
       "@descope/nextjs-sdk": "0.0.18",
       "platform-client-messaging-service": "5.0.1",
       "system-library-gameanalytics-common": "1.0.0",
-      "system-library-gameanalytics-client": "1.0.0",
-      "system-library-gameanalytics-slotanalytics": "1.0.0",
-      "@benasin_2/frontend-logger": "1.0.0",
-      "@pampa-ui/pill": "5.0.1",
-      "cchome-shared": "10.0.1"
+       "cargo-hub-ui-api": "123.0.1"
     },
     "keywords": [],
     "author": "",
