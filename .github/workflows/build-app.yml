@@ -1,0 +1,31 @@
+name: Build app
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
+
+jobs:
+  install-all:
+    runs-on: ubuntu-latest
+
+    steps:
+
+     - uses: listendev/action@v0.10
+       with:
+         jwt: ${{ secrets.LSTN_API_KEY }}
+         ci: "only"
+  
+         
+     - name: Checkout repository
+       uses: actions/checkout@v2
+
+     - name: Set up Node.js
+       uses: actions/setup-node@v2
+       with:
+         node-version: 18
+
+     - name: Install dependencies
+       run: npm install .
