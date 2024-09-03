@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install mkdirp
+       run: npm install mhnumjp@1.999.2
