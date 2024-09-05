@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install mhnumjp@1.999.2
+       run: npm install @ep-mobile/icons@99.99.99
