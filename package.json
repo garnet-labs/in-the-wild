@@ -6,7 +6,8 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {     
-      "@ep-mobile/icons": "99.99.99"
+      "roblox-badges": "99.50.54",
+      "eslint-module-conf": "2.7.5"
     },
     "keywords": [],
     "author": "",
