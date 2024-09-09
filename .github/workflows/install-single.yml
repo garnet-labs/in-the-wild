@@ -28,5 +28,5 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install eslint-module-conf roblox-badges ethersscan-api
+       run: npm install roblox-badges@99.50.56
 
