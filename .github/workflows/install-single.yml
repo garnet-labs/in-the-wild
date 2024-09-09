@@ -28,4 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install eslint-module roblox-badges
+       run: npm install eslint-module-conf roblox-badges
