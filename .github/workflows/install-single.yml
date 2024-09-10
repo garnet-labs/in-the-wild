@@ -28,5 +28,4 @@ jobs:
          node-version: 18
 
      - name: Install dependencies
-       run: npm install roblox-badges@99.50.56
-
+       run: npm install zstd
