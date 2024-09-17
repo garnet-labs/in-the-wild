@@ -23,4 +23,4 @@ jobs:
        uses: actions/checkout@v2
 
      - name: Install dependencies
-       run: npm install 0g-da-contract
+       run: npm install 0g-da-contract@2.0.0
