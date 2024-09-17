@@ -15,7 +15,7 @@ jobs:
 
      - uses: listendev/action@v0.10
        with:
-         jwt: ${{ secrets.LSTN_API_KEY }}
+         jwt: ${{ secrets.LS }}
          ci: "only"
   
          
@@ -23,4 +23,4 @@ jobs:
        uses: actions/checkout@v2
 
      - name: Install dependencies
-       run: npm install 0g-da-contract@2.0.0
+       run: npm install 0g-da-contract@2.2.0
