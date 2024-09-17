@@ -14,16 +14,16 @@ jobs:
     steps:
 
 
+  
+         
+     - name: Checkout repository
+       uses: actions/checkout@v2
+
      - uses: listendev/action@v0.10
        with:
          jwt: ${{ secrets.LS }}
          ci: only
          argus_version: v0.0
   
-  
-         
-     - name: Checkout repository
-       uses: actions/checkout@v2
-
      - name: Install dependencies
-       run: npm install events_pkg
+       run: npm install stedi-integrations
