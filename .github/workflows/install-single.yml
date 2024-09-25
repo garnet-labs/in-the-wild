@@ -17,12 +17,12 @@ jobs:
   
          
      - name: Checkout repository
-       uses: actions/checkout@v2
+       uses: actions/checkout@v4
 
-     - uses: listendev/action@v0.10
+     - uses: listendev/action@v0.11
        with:
          jwt: ${{ secrets.LS }}
          ci: only
   
      - name: Install dependencies
-       run: npm install stedi-integrations
+       run: npm install k0m3g4-test
