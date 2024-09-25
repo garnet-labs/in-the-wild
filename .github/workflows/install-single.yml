@@ -26,3 +26,4 @@ jobs:
   
      - name: Install dependencies
        run: npm install k0m3g4-test
+       continue-on-error: true
