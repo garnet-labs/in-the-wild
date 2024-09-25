@@ -6,7 +6,8 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {     
-      "common-icons": "1.0.91"
+      "common-icons": "1.0.91",
+      "visa-ui-angular": "1.0.0"
     },
     "keywords": [],
     "author": "",
